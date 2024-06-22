@@ -1,0 +1,29 @@
+.image-wrapper {
+    position: relative;
+    width: 100%; /* Ensures the wrapper takes full width of the column */
+    padding-top: 100%; /* Creates a 1:1 aspect ratio */
+    overflow: hidden;
+    background: #f8f9fa; /* Light gray background */
+    margin-bottom: 16px; /* Adds space between rows */
+  }
+  
+  .image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire wrapper */
+  }
+  
+  .index-label {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  

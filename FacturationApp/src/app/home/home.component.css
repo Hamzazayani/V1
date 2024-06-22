@@ -1,0 +1,42 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: #007bff;
+  }
+  
+  .form-select {
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+  }
+  
+  .custom-dropdown {
+    padding: 10px;
+  }
+  
+  .custom-dropdown option {
+    padding: 10px 20px; /* Increase padding for more space */
+    margin: 5px 0;     /* Increase margin for more space */
+  }
+  
